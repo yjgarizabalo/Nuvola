@@ -1,3 +1,4 @@
+<div class="container">
 <form method="POST" action="<?php echo base_url('usuario/update') ?> ">
     <?php foreach($datosUsuario as $value) {?>
     <h2 class="font-weight-bold pb-4">Novula</h2>
@@ -32,4 +33,4 @@
     <?php }?>
     <button type="submit" class="btn btn-dark">Actulizar usuario</button>
 </form>
-
+</div>
