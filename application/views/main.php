@@ -7,8 +7,8 @@
     <title>Nuvola | Bienvenidos</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="<?php echo base_url('public/css/bootstrap.css') ?>">
-    <link rel="stylesheet" href="<?php echo base_url('public/css/app.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('public/css/bootstrap.css')?>">
+    <link rel="stylesheet" href="<?php echo base_url('public/css/app.css')?>">
     <!-- tipografia -->
     <link href="https://fonts.googleapis.com/css?family=Spartan:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <!-- icons -->
@@ -69,8 +69,8 @@
     </footer>
 
     <!-- javascript -->
-    <script src="<?php echo base_url('public/js/jquery.js') ?>"></script>
-    <script src="<?php echo base_url('public/js/popper.js') ?>"></script>
+    <script src="<?php echo base_url('public/js/jquery.js')?>"></script>
+    <script src="<?php echo base_url('public/js/popper.js')?>"></script>
     <script src="<?php echo base_url('public/js/bootstrap.js') ?>"></script>
 </body>
 

@@ -1,15 +1,15 @@
--- MySQL Workbench Forward Engineering
+-- MySQL Nuvola v0.1
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
 -- -----------------------------------------------------
--- Schema nuvola_db
+-- Esquema nuvola_db
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema nuvola_db
+-- Esquema nuvola_db
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `nuvola_db` DEFAULT CHARACTER SET utf8 ;
 USE `nuvola_db` ;
