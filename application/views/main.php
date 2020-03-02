@@ -43,7 +43,7 @@
 
     <footer class="footer-nuv bg-dark text-white">
         <div class="container pt-lg-5 mt-lg-5 pb-lg-5">
-            <div class="row">
+            <div class="row pt-3 pb-2">
                 <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
                     <ul class="list-inline mb-2">
                         <li class="list-inline-item">

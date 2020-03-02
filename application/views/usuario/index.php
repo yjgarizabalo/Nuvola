@@ -2,7 +2,7 @@
 <div class="jumbotron bg-dark text-white jumbotron-fluid hero-nuvola">
     <div class="container">
         <div class="row">
-            <div class="col pt-5">
+            <div class="col-md-6 pt-5">
                 <h1 class="display-4 font-weight-bold">Hola, Amigos</h1>
                 <p class="lead">
                     Gestione eficientemente Actividades e incidentes del hotel desde una sola Plataforma.</p>
@@ -10,8 +10,10 @@
                 <p>Nuvola es una compañía de software hotelero, con el más completo sistema de gestión de huéspedes.</p>
                 <a class="btn btn-success btn-lg" href="#" role="button">Saber más</a>
             </div>
-            <div class="col">
-                <img src="<?php echo base_url('public/img/hero-nuv.svg') ?>" alt="hero">
+            <div class="col-md-6">
+                <div class="m-5 mx-auto">
+                <img class="img-fluid" style="max-width: 100%; height: auto;" src="<?php echo base_url('public/img/hero-nuv.svg') ?>" alt="hero">
+                </div>
             </div>
             </div>
         </div>
