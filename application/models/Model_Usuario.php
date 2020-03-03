@@ -6,7 +6,7 @@ class Model_usuario extends CI_Model
     function __construct()
     {
         parent::__construct();
-        $this->load->database('perfil','usuario', TRUE);
+        $this->load->database();
     }
 
     // funcuion select - sql
