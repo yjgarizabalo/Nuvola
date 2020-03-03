@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/nuvola';
+$config['base_url'] = 'https://8d3eea48-71f2-406c-a41e-7ae52486b112.clouding.host/nuvola';
 
 /*
 |--------------------------------------------------------------------------

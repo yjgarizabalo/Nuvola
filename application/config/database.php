@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'https://8d3eea48-71f2-406c-a41e-7ae52486b112.clouding.host/',
+	'username' => 'root-nuvola',
+	'password' => '7~34aslD',
 	'database' => 'nuvola_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
