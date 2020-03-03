@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '8d3eea48-71f2-406c-a41e-7ae52486b112.clouding.host',
-	'username' => 'root-nuvola',
-	'password' => '7~34aslD',
-	'database' => 'nuvola_db',
+	'hostname' => 'nuvola.kingdomplus.org',
+	'username' => 'kingdomplus_nuvola_root',
+	'password' => '##nuvola##_',
+	'database' => 'kingdomplus_nuvola_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
