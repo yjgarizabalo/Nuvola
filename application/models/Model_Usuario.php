@@ -40,7 +40,7 @@ class Model_usuario extends CI_Model
     {
         $this->db->where('usu_id', $id);
         $this->db->delete('usuario');
-        redirect('');
+        redirect('/#nsection1');
     }
 
     //editar usuario

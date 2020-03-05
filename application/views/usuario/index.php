@@ -20,7 +20,7 @@
     </div>
 </div>
 
-<div class="mt-5 mb-5">
+<div class="mt-5 mb-5" id="nsection1">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -40,11 +40,11 @@
                         <tbody>
                             <?php foreach ($listaUsuario as $value) { ?>
                                 <tr>
-                                    <th scope="row"><?php echo $value->usu_id; ?></th>
-                                    <td><?php echo $value->per_nombre; ?></td>
-                                    <td><?php echo $value->usu_nombres; ?></td>
-                                    <td><?php echo $value->usu_apellidos; ?></td>
-                                    <td><?php echo $value->usu_correo; ?></td>
+                                    <th class="small font-weight-bold" scope="row"><?php echo $value->usu_id; ?></th>
+                                    <td class="small"><?php echo $value->per_nombre; ?></td>
+                                    <td class="small"><?php echo $value->usu_nombres; ?></td>
+                                    <td class="small"><?php echo $value->usu_apellidos; ?></td>
+                                    <td class="small"><?php echo $value->usu_correo; ?></td>
                                     <td class="text-center">
                                         <a href="<?php echo base_url('usuario/delete/') . $value->usu_id ?>" title="Eliminar" class=" text-resettext-decoration-none"><i class="far fa-trash-alt"></i></a>
                                         <a class="font-weight-bold text-decoration-none "> · </a>
@@ -61,7 +61,7 @@
                     <h2 class="font-weight-bold">Novula</h2>
                     <div class="form-group pt-4">
                         <label>Perfil</label>
-                        <select name="Idper" class="form-control">
+                        <select name="Idper" class="form-control" required>
                             <?php foreach ($selPerfil as $value) { ?>
                                 <option value="<?php echo $value->per_id ?>"> <?php echo $value->per_nombre ?> </option>
                             <?php } ?>
@@ -71,17 +71,17 @@
                     </div>
                     <div class="form-group">
                         <label>Nombres</label>
-                        <input name="nombres" type="text" class="form-control">
+                        <input name="nombres" type="text" class="form-control" required>
                         <small id="emailHelp" class="form-text text-muted">Ingres primer y segundo nombre</small>
                     </div>
                     <div class="form-group">
                         <label>Apellidos</label>
-                        <input name="apellidos" type="text" class="form-control">
+                        <input name="apellidos" type="text" class="form-control" required>
                         <small id="emailHelp" class="form-text text-muted">Ingres primer y segundo apellidos</small>
                     </div>
                     <div class="form-group">
                         <label>Correo Electronico</label>
-                        <input name="correo" type="email" class="form-control">
+                        <input name="correo" type="email" class="form-control" required>
                         <small id="emailHelp" class="form-text text-muted">Ingres su correo electronico</small>
                     </div>
                     <button type="submit" class="btn btn-dark">Registrar</button>

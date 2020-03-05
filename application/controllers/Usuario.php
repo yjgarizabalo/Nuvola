@@ -28,7 +28,7 @@ class Usuario extends CI_Controller
             $apellidos = $datos['apellidos'];
             $correo = $datos['correo'];
             $this->Model_Usuario->insertUsuario($Id, $nombres, $apellidos, $correo);
-            redirect('');
+            redirect('/#nsection1');
         }
     }
 
@@ -61,7 +61,7 @@ class Usuario extends CI_Controller
             $apellidos = $datos['apellidos'];
             $correo = $datos['correo'];
             $this->Model_Usuario->updateUsuario($Usuid, $Idper, $nombres, $apellidos, $correo);
-            redirect('');
+            redirect('/#nsection1');
         }
     }
 }
